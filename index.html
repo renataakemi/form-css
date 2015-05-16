@@ -3,10 +3,36 @@
 <head>
 
 <meta charset="UTF-8" />
-<title></title>
+<title>CSS Form</title>
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/t1/style.css" title="Theme 1">
 
 </head>
 <body>
+<h1>CSS Form</h1>
+
+<form action="">
+    <fieldset>
+        <legend>Login</legend>
+        
+        <label for="username">
+            Username
+            <input class="field" type="text" id="username"/>
+        </label>
+        
+        <label for="secretword">
+            Password
+            <input class="field" type="password" id="secretword"/>
+        </label>
+        
+        <label for="remember-me">
+            <input type="checkbox" id="remember-me"/>
+            Remember me
+        </label>
+        
+        <input class="button" type="submit" value="Sign in">
+    </fieldset>
+</form>
 
 </body>
 </html>
